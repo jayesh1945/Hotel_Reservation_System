@@ -36,7 +36,7 @@ It allows users to manage hotel room bookings with basic CRUD operations.
    * Contact
    * Reservation TimeStamp 
    
- 
+    ```sql 
     CREATE TABLE reservations (
     reservation_id INT PRIMARY KEY,
     guest_name VARCHAR(100),
